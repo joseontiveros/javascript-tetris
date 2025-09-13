@@ -429,14 +429,14 @@ class Game {
 
 class View {
   static #TETROMINO_COLORS = {
-    1: "#0000ff",
-    2: "#00ff00", 
-    3: "#ff0000",
-    4: "#ff8000",
-    5: "#ff00ff",
-    6: "#ffff00",
-    7: "#00ffff",
-  };
+  1: "#00FFFF",
+  2: "#5D2F77",
+  3: "#00FF00",
+  4: "#4682B4",
+  5: "#8A2BE2",
+  6: "#FECA57",
+  7: "#FF6347",
+};
 
   static #FONT_FAMILY = "'Courier New'";
   static #FONT_SIZE_LARGE = 18;
