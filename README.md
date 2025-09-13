@@ -2,6 +2,39 @@
 
 A complete implementation of the classic Tetris game built entirely with vanilla **HTML5**, **CSS3**, and **JavaScript** - no external libraries or frameworks required. This project serves as an excellent educational resource for students learning game development, object-oriented programming, and modern JavaScript concepts.
 
+## How to Play
+
+### Play Online
+You can play the game directly in your browser without downloading anything:
+
+**[🎮 Play Tetris Online](https://johanni3jan.github.io/javascript-tetris)**
+
+### Play Locally
+To play the game locally, follow these steps:
+
+1. Clone the repository or download the ZIP file
+2. If downloaded as ZIP, extract the files
+3. Navigate to the project directory
+4. Open `index.html` in any modern web browser
+5. No additional installation or build process required!
+
+### Game Controls
+- **Enter**: Start the game or restart after game over
+- **Space**: Pause/Resume the game
+- **Arrow Left** (←): Move tetromino left
+- **Arrow Right** (→): Move tetromino right
+- **Arrow Up** (↑): Rotate the tetromino clockwise
+- **Arrow Down** (↓): Soft drop (faster descent)
+
+### Objective
+Stack falling tetromino pieces to create complete horizontal lines. When a line is completed, it disappears and you earn points. The game speeds up as you progress through levels. The game ends when pieces reach the top of the playing field.
+## Browser Compatibility
+
+This game works in all modern browsers that support:
+- HTML5 Canvas API
+- ES6+ JavaScript features (classes, arrow functions, const/let)
+- CSS3 features
+
 ## Educational Purpose
 
 This Tetris implementation is specifically designed for learning and teaching purposes, demonstrating:
@@ -36,25 +69,6 @@ This Tetris implementation is specifically designed for learning and teaching pu
 - Pause and resume gameplay
 - Game over detection and restart capability
 - Responsive keyboard controls
-
-## Project Structure
-
-```
-JAVASCRIPT-TETRIS/
-├── .github/                    # GitHub community files
-│   ├── CODE_OF_CONDUCT.md     # Community guidelines
-│   └── CONTRIBUTING.md        # Contribution instructions
-├── src/                       # Source code directory
-│   ├── assets/               # Game assets
-│   │   └── tetris-favicon.jpg # Game favicon
-│   ├── css/                  # Stylesheets
-│   │   └── style.css         # Main styling
-│   └── js/                   # JavaScript files
-│       └── index.js          # Complete game implementation
-├── index.html                # Main HTML file with SEO optimization
-├── LICENSE                   # MIT license
-└── README.md                 # This documentation file
-```
 
 ## Code Architecture
 
@@ -105,35 +119,6 @@ By studying and working with this code, students will learn:
 - Event handling and user input processing
 - Algorithm implementation (rotation, collision detection)
 - Object-oriented design principles in JavaScript
-
-## How to Play
-
-### Installation and Setup
-1. Clone the repository or download the ZIP file
-2. If downloaded as ZIP, extract the files
-3. Navigate to the project directory
-4. Open `index.html` in any modern web browser
-5. No additional installation or build process required!
-
-### Game Controls
-- **Enter**: Start the game or restart after game over
-- **Space**: Pause/Resume the game
-- **Arrow Left** (←): Move tetromino left
-- **Arrow Right** (→): Move tetromino right
-- **Arrow Up** (↑): Rotate the tetromino clockwise
-- **Arrow Down** (↓): Soft drop (faster descent)
-
-### Objective
-Stack falling tetromino pieces to create complete horizontal lines. When a line is completed, it disappears and you earn points. The game speeds up as you progress through levels. The game ends when pieces reach the top of the playing field.
-
-## Browser Compatibility
-
-This game works in all modern browsers that support:
-- HTML5 Canvas API
-- ES6+ JavaScript features (classes, arrow functions, const/let)
-- CSS3 features
-
-**Tested browsers**: Chrome 60+, Firefox 55+, Safari 10+, Edge 79+
 
 ## Code Quality Features
 
